@@ -1,0 +1,7 @@
+# Linux
+
+*.swp
+*.log
+
+# Mac
+.DS_Store

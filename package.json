@@ -1,0 +1,19 @@
+{
+  "name": "inbox",
+  "version": "1.0.0",
+  "description": "A Simple Ethereum Inbox project",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmauricios/ether-inbox.git"
+  },
+  "author": "Mauricio Serna Florez < @fmauricios >",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fmauricios/ether-inbox/issues"
+  },
+  "homepage": "https://github.com/fmauricios/ether-inbox#readme"
+}

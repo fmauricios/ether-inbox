@@ -13,3 +13,7 @@ node_modules
 # VSCode
 
 .vscode
+
+# JS Files
+
+config.js

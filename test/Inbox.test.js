@@ -39,4 +39,14 @@ describe('Inbox', () => {
 
     assert.equal(message, 'Hi Ethereum.')
   })
+
+  it('can change the message', async () => {
+    await inbox.methods.setMessage('Ethereum is awesome.').send({
+      from: accounts[0]
+    })
+
+    const message = await inbox.methods.message().call()
+
+    assert.equal(message, 'Ethereum is awesome.')
+  })
 })

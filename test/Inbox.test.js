@@ -33,4 +33,10 @@ describe('Inbox', () => {
   it('deploys a contract', () => {
     assert.ok(inbox.options.address)
   })
+
+  it('has a default message', async () => {
+    const message = await inbox.methods.message().call()
+
+    assert.equal(message, 'Hi Ethereum.')
+  })
 })
